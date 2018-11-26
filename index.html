@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styale.css">
+    <title>ToDo list Zadanie4</title>
+</head>
+<body>
+    <div class="head">
+        <h2>ToDo List</h2>
+    </div>
+    <h1>ToDo List</h1>
+        <div class="header">
+            <input type="date" id="adddata">
+            <input type="text" placeholder="Введите новое дело......." id="toDoList">
+            <span class="addBtn" onclick="newElement()">Добавить</span>
+            <span class="dellBtn" onclick="delList()">Очистить список</span>
+        </div>
+            <ul id="list">
+                <li>2018-11-24 | Первое Дело <span class="close">Удалить</span> </li>
+                <li>2018-11-24 | Второе Дело <span class="close">Удалить</span> </li>
+                <li class="checked">2018-11-24 | Третье Дело <span class="close">Удалить</span> </li>
+            </ul>
+</body>
+<script src="script.js"></script>
+</html>
