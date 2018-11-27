@@ -31,7 +31,7 @@
     }
     function delList() {
         var li = document.getElementsByTagName('li');
-        for (var i = 0; i < 10; i++) {
+        for (var i = 0; i < li.length; i++) {
             li[i].style.display = 'none';
         }
     }
