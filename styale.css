@@ -99,7 +99,7 @@ input {
     cursor: pointer;
 }
 
-.addBtn:hover {
+.addBtn:hover, .dellBtn:hover {
     background-color: #bbbbbb;
 }
 
