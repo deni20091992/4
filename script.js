@@ -25,12 +25,12 @@
             document.getElementById('list').appendChild(li);
         }
         document.getElementById('toDoList').value = "";
-    var span = document.createElement('SPAN');
-    var txt = document.createTextNode("Удалить");
-    span.className = "close";
-    span.appendChild(txt);
-    li.appendChild(span);
-    });
+            var span = document.createElement('SPAN');
+            var txt = document.createTextNode("Удалить");
+            span.className = "close";
+            span.appendChild(txt);
+            li.appendChild(span);
+        });
 
     var delList = document.getElementById('dellBtn');
     delList.addEventListener( "click" , function() {
