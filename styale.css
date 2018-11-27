@@ -88,7 +88,7 @@ input {
     font-size: 16px;
 }
 
-.addBtn, .dellBtn {
+#addBtn, #dellBtn {
     padding: 1vw;
     width: 25%;
     background: #d9d9d9;
@@ -99,7 +99,7 @@ input {
     cursor: pointer;
 }
 
-.addBtn:hover, .dellBtn:hover {
+#addBtn:hover, #dellBtn:hover {
     background-color: #bbbbbb;
 }
 

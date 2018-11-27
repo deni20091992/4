@@ -7,7 +7,9 @@
             div.remove();
         }
     }, false);
-    function newElement() {
+
+    var addelement = document.getElementById('addBtn');
+    addelement.addEventListener( "click" , function() {
         var inputValue = document.getElementById('toDoList').value;
         var inputData = document.getElementById('adddata').value;
         var p = document.createTextNode(inputData + " | " + inputValue);
@@ -28,10 +30,12 @@
     span.className = "close";
     span.appendChild(txt);
     li.appendChild(span);
-    }
-    function delList() {
+    });
+
+    var delList = document.getElementById('dellBtn');
+    delList.addEventListener( "click" , function() {
         var li = document.getElementsByTagName('li');
         for (var i = 0; i < li.length; i++) {
             li[i].style.display = 'none';
         }
-    }
+    });
